@@ -12,11 +12,19 @@ extensions = [
     'sphinx.ext.napoleon',
     'sphinx.ext.viewcode',
     'recommonmark', 
+    'sphinx_wagtail_theme',  
 ]
 
 source_suffix = {
     '.rst': 'restructuredtext',
     '.md': 'markdown',
+}
+
+html_sidebars = {
+    "**": [
+        "searchbox.html",
+        "about.html",
+    ]
 }
 
 master_doc = 'index'
@@ -26,20 +34,23 @@ html_static_path = ['_static']
 html_css_files = [
     'custom.css',
 ]
+html_last_updated_fmt = "%b %d, %Y"
 
-html_theme_options = dict(
-    project_name = "Crazy Development",
-    logo = "https://cdn.crazydev.org/_data/i/upload/2024/08/29/20240829135605-1e4ae887-th.png",
-    logo_alt = "crazydev",
-    logo_height = 59,
-    logo_url = "/",
-    logo_width = 45,
-)
-
-# -- Options for HTML output -------------------------------------------------
-extensions.append("sphinx_wagtail_theme")
 html_theme = 'sphinx_wagtail_theme'
-
+html_theme_options = {
+    'project_name': "Crazy Development",
+    'logo': "/assets/logo.png",
+    'github_url': "https://github.com/Crazy-Development/crazydev-docs",
+    'logo_alt': "crazydev",
+    'logo_height': 59,
+    'logo_width': 45,
+    'logo_url': "/",
+    'header_links': "Top 1|http://example.com/one, Top 2|http://example.com/two",
+    'footer_links': ",".join([
+        "Contact|http://wen-tickets.crazydev.org",
+        "Blog|http://blog.crazydev.org",
+    ]),
+}
 
 # -- Options for EPUB output -------------------------------------------------
 epub_show_urls = 'footnote'
