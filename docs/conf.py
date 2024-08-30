@@ -48,7 +48,7 @@ html_theme_options = {
     'logo_height': 59,
     'logo_width': 45,
     'logo_url': "/",
-    'header_links': "Crazydev - Blog |http://crazydev.org",  
+    'header_links': "Crazydev - Blog |http://crazydev.org", }
 
 
 # -- Options for EPUB output -------------------------------------------------
