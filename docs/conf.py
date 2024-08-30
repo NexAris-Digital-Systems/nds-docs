@@ -1,6 +1,8 @@
-# Configuration file for the Sphinx documentation builder.
+import os
+import sys
 
-# -- Project information -----------------------------------------------------
+# Add the 'docs/source/' directory to sys.path, adjust if your module is in another path
+sys.path.insert(0, os.path.abspath('../source'))
 
 project = 'Lumache'
 copyright = '2021, Graziella'
