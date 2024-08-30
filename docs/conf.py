@@ -1,8 +1,4 @@
-import os
-import sys
-
-# Add the path to the source files to sys.path
-sys.path.insert(0, os.path.abspath('../source'))
+# Configuration file for the Sphinx documentation builder.
 
 # -- Project information -----------------------------------------------------
 
@@ -41,7 +37,7 @@ master_doc = 'index'
 
 # -- Options for HTML output -------------------------------------------------
 
-html_theme = 'sphinx_rtd_theme'
+html_theme = 'alabaster'
 
 # -- Options for EPUB output -------------------------------------------------
 epub_show_urls = 'footnote'
