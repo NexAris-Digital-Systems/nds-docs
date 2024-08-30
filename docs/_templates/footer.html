@@ -3,15 +3,20 @@
 <head>
     <style>
         .footer {
-            background-color: #343a40; 
-            color: #fff; 
+            background-color: var(--header-bg); 
+            color: var(--text-color); 
             margin-left: 325px;
             padding: 20px;
             text-align: center;
-            border-top: 1px solid #ddd; 
+            border-top: 1px solid var(--border-color);
             position: relative;
             width: 100%;
             bottom: 0;
+        }
+        
+        [data-theme="dark"] .footer {
+            background-color: #121212; 
+            color: #fff; 
         }
 
         .footer-logo {
@@ -19,14 +24,22 @@
             margin-bottom: 15px;
         }
 
+        [data-theme="dark"] .footer-logo {
+            content: url('https://cdn.crazydev.org/upload/2024/08/14/20240814080422-a2794fa4.png');
+        }
+
         .footer a {
-            color: #fff; 
+            color: var(--text-color);
             text-decoration: none;
             transition: color 0.3s ease;
         }
 
+        [data-theme="dark"] .footer a {
+            color: #fff;
+        }
+
         .footer a:hover {
-            color: #007bff;
+            color: var(--primary-color);
         }
 
         .footer-content {
@@ -45,7 +58,7 @@
         .footer-section h4 {
             font-size: 16px;
             margin-bottom: 15px;
-            color: #fff; 
+            color: #fff;
         }
 
         .footer-section ul {
@@ -64,7 +77,7 @@
         }
 
         .footer-section ul li a:hover {
-            color: #007bff; 
+            color: #000; 
         }
     </style>
 </head>
