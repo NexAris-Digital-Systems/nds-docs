@@ -2,8 +2,8 @@
 
 # -- Project information -----------------------------------------------------
 
-project = 'Lumache'
-author = 'Graziella'
+project = 'Crazy Development Docs'
+author = 'MrRamyg'
 
 release = '0.1'
 version = '0.1.0'
@@ -18,9 +18,8 @@ extensions = [
     'sphinx.ext.intersphinx',
     'sphinx.ext.napoleon',
     'sphinx.ext.viewcode',
-    'sphinx.ext.autodoc',
-    'sphinx.ext.napoleon',
-    'recommonmark',
+    'recommonmark',  
+    'sphinx_wagtail_theme',  
 ]
 
 templates_path = ['_templates']
@@ -32,9 +31,6 @@ intersphinx_mapping = {
     'sphinx': ('https://www.sphinx-doc.org/en/master/', None),
 }
 intersphinx_disabled_domains = ['std']
-
-# Paths to templates
-templates_path = ['_templates']
 
 # Source file suffixes
 source_suffix = '.md'
