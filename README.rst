@@ -1,3 +1,6 @@
+[![Documentation Status](https://readthedocs.org/projects/crazydev-docs/badge/?version=latest)](https://docs.crazydev.org/en/latest/?badge=latest)
+
+
 Template for the Read the Docs tutorial
 =======================================
 
