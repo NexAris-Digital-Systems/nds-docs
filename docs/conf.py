@@ -22,12 +22,12 @@ source_suffix = {
 }
 
 
-templates_path = ['_sidebar_btemplates']
+templates_path = ['_templates']
 # -- Sidebar Buttons  -------------------------------------------------
 html_sidebars = {"**": [
     "searchbox.html",
     "globaltoc.html",
-    "./_sidebar_btemplates/about.html",   
+    "about.html",   
 ]}
 
 
