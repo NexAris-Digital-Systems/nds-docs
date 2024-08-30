@@ -28,7 +28,7 @@ html_sidebars = {
     '**': [
         'globaltoc.html',  
         'searchbox.html',  
-        '/source/about.md'
+        '_sidebar_btemplates/about.html'
     ]
 }
 
@@ -49,11 +49,7 @@ html_theme_options = {
     'logo_width': 45,
     'logo_url': "/",
     'header_links': "Crazydev - Blog |http://crazydev.org",  
-    'footer_links': ",".join([
-        "Contact|http://wen-tickets.crazydev.org",
-        "Blog|http://blog.crazydev.org",
-    ]),
-}
+
 
 # -- Options for EPUB output -------------------------------------------------
 epub_show_urls = 'footnote'
