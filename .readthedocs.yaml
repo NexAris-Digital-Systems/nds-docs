@@ -8,5 +8,4 @@ build:
     python: "3.12"
 
 sphinx:
-  configuration: docs/source/conf.py  # Point to the correct conf.py path
-  source: docs/source                 # Set the source directory to where your .rst files are
+  configuration: docs/conf.py  # Path to your conf.py file
