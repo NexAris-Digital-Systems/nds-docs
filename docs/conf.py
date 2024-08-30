@@ -20,12 +20,11 @@ source_suffix = {
     '.md': 'markdown',
 }
 
-html_sidebars = {
-    "**": [
-        "searchbox.html",
-        "about.html"
-    ]
-}
+html_sidebars = {"**": [
+    "searchbox.html",
+    "globaltoc.html",
+    "test.html",  
+]}
 
 master_doc = 'index'
 templates_path = ['_templates']
