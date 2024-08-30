@@ -6,28 +6,28 @@ version = '0.1.0'
 
 # -- General configuration ---------------------------------------------------
 extensions = [
+    'myst_parser',
     'sphinx.ext.autodoc',
     'sphinx.ext.autosummary',
     'sphinx.ext.intersphinx',
     'sphinx.ext.napoleon',
     'sphinx.ext.viewcode',
-    'recommonmark',
     'sphinx_wagtail_theme',
 ]
 
 source_suffix = {
     '.rst': 'restructuredtext',
-    '.md': 'markdown',
+    '.md': 'myst',
 }
+
 
 templates_path = ['_sidebar_btemplates']
 
-# Sidebar configuration to use default Sphinx templates
 html_sidebars = {
     '**': [
         'globaltoc.html',  
         'searchbox.html',  
-        'about.html'
+        '/source/about.md'
     ]
 }
 
