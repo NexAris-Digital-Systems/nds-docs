@@ -30,11 +30,17 @@ intersphinx_mapping = {
 }
 intersphinx_disabled_domains = ['std']
 
+# Paths to templates
+templates_path = ['_templates']
+
 # Source file suffixes
 source_suffix = '.rst'
 
 # Master document (source file without extension)
 master_doc = 'index'
+
+# Source directory
+source_dir = 'docs/source'
 
 # -- Options for HTML output -------------------------------------------------
 
