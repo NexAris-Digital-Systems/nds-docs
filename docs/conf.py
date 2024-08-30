@@ -23,14 +23,13 @@ source_suffix = {
 
 
 templates_path = ['_sidebar_btemplates']
+# -- Sidebar Buttons  -------------------------------------------------
+html_sidebars = {"**": [
+    "searchbox.html",
+    "globaltoc.html",
+    "./_sidebar_btemplates/about.html",   
+]}
 
-html_sidebars = {
-    '**': [
-        'globaltoc.html',  
-        'searchbox.html',  
-        '_sidebar_btemplates/about.html'
-    ]
-}
 
 master_doc = 'index'
 exclude_patterns = []
