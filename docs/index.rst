@@ -3,8 +3,8 @@
    :caption: Contents:
 
    introduction
-   about
-   control_center_product
-   ToS
-   privacy_policy
-   contact
+   source/about
+   source/control_center_product
+   source/ToS
+   source/privacy_policy
+   source/contact
