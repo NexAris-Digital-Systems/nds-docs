@@ -1,4 +1,5 @@
 # .readthedocs.yaml
+
 version: 2
 
 build:
@@ -7,8 +8,5 @@ build:
     python: "3.12"
 
 sphinx:
-  configuration: docs/conf.py
-
-python:
-  install:
-    - requirements: docs/requirements.txt
+  configuration: docs/source/conf.py  # Point to the correct conf.py path
+  source: docs/source                 # Set the source directory to where your .rst files are
