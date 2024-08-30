@@ -35,6 +35,9 @@ source_suffix = '.rst'
 # Master document (source file without extension)
 master_doc = 'index'
 
+# Source directory
+source_dir = 'docs/source'
+
 # -- Options for HTML output -------------------------------------------------
 
 html_theme = 'alabaster'
