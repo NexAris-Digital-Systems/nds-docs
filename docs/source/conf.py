@@ -1,18 +1,13 @@
 # Configuration file for the Sphinx documentation builder.
 
 # -- Project information -----------------------------------------------------
-
-project = 'Lumache'
-author = 'Graziella'
-
+project = 'Crazy Development'
+author = 'MrRamyg'
 release = '0.1'
 version = '0.1.0'
 
 # -- General configuration ---------------------------------------------------
-
 extensions = [
-    'sphinx.ext.duration',
-    'sphinx.ext.doctest',
     'sphinx.ext.autodoc',
     'sphinx.ext.autosummary',
     'sphinx.ext.intersphinx',
@@ -20,9 +15,13 @@ extensions = [
     'sphinx.ext.viewcode',
     'recommonmark',
     'sphinx_markdown_tables',
+    'sphinx_wagtail_theme',  # Added here, no need to append separately
 ]
 
+# Paths to templates
 templates_path = ['_templates']
+
+# Patterns to ignore when looking for source files
 exclude_patterns = []
 
 # Mapping for intersphinx (links to other documentation)
@@ -32,17 +31,14 @@ intersphinx_mapping = {
 }
 intersphinx_disabled_domains = ['std']
 
-# Paths to templates
-templates_path = ['_templates']
-
 # Source file suffixes
-source_suffix = '.md'
+source_suffix = {
+    '.rst': 'restructuredtext',
+    '.md': 'markdown',
+}
 
 # Master document (source file without extension)
 master_doc = 'index'
-
-# Source directory
-source_dir = 'docs/source'
 
 # -- Options for HTML output -------------------------------------------------
 
