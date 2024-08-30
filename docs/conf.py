@@ -44,6 +44,7 @@ source_dir = 'docs/source'
 
 # -- Options for HTML output -------------------------------------------------
 
+extensions.append("sphinx_wagtail_theme")
 html_theme = 'sphinx_wagtail_theme'
 
 # -- Options for EPUB output -------------------------------------------------
