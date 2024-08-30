@@ -12,9 +12,3 @@ sphinx:
 python:
   install:
     - requirements: docs/requirements.txt
-
-# Add custom build commands if needed
-commands:
-  # Install Sphinx explicitly if it's still not found
-  - pip install -r docs/requirements.txt
-  - sphinx-build -b html -d _build/doctrees -T -v docs _build/html
