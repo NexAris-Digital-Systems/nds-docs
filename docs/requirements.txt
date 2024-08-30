@@ -1,4 +1,4 @@
 sphinx==7.2.6
-sphinx_wagtail_theme==1.1.0
+sphinx-wagtail-theme==6.3.0  
 recommonmark==0.7.1
 sphinx_markdown_tables==0.0.14
