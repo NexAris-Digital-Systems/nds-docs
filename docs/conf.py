@@ -22,6 +22,10 @@ source_suffix = {
 master_doc = 'index'
 templates_path = ['_templates']
 exclude_patterns = []
+html_static_path = ['_static']
+html_css_files = [
+    'custom.css',
+]
 
 # -- Options for HTML output -------------------------------------------------
 extensions.append("sphinx_wagtail_theme")
