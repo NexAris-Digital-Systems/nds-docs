@@ -1,0 +1,11 @@
+#wagtail-theme {
+    display: none;
+}
+
+.btn.btn-light[href*="github.com/wagtail/sphinx_wagtail_theme"] {
+    display: none;
+}
+
+.btn.btn-light[href*="_sources/index.md.txt"] {
+    display: none;
+}
