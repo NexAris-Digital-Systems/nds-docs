@@ -3,7 +3,6 @@
 # -- Project information -----------------------------------------------------
 
 project = 'Lumache'
-copyright = '2021, Graziella'
 author = 'Graziella'
 
 release = '0.1'
@@ -17,7 +16,12 @@ extensions = [
     'sphinx.ext.autodoc',
     'sphinx.ext.autosummary',
     'sphinx.ext.intersphinx',
+    'sphinx.ext.napoleon',
+    'sphinx.ext.viewcode',
 ]
+
+templates_path = ['_templates']
+exclude_patterns = []
 
 # Mapping for intersphinx (links to other documentation)
 intersphinx_mapping = {
@@ -26,21 +30,15 @@ intersphinx_mapping = {
 }
 intersphinx_disabled_domains = ['std']
 
-# Paths to templates
-templates_path = ['_templates']
-
 # Source file suffixes
 source_suffix = '.rst'
 
 # Master document (source file without extension)
 master_doc = 'index'
 
-# Source directory
-source_dir = 'docs/source'
-
 # -- Options for HTML output -------------------------------------------------
 
-html_theme = 'alabaster'
+html_theme = 'furo'
 
 # -- Options for EPUB output -------------------------------------------------
 epub_show_urls = 'footnote'
