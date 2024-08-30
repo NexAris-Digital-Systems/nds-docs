@@ -24,11 +24,13 @@ source_suffix = {
 
 templates_path = ['_templates']
 # -- Sidebar Buttons  -------------------------------------------------
-html_sidebars = {"**": [
-    "searchbox.html",
-    "globaltoc.html",
-]}
-
+html_sidebars = {
+    '**': [
+        'globaltoc.html',
+        'relations.html', 
+        'searchbox.html',
+    ]
+}
 
 master_doc = 'index'
 exclude_patterns = []
