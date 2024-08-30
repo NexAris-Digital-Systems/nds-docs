@@ -26,9 +26,8 @@ templates_path = ['_templates']
 # -- Sidebar Buttons  -------------------------------------------------
 html_sidebars = {
     '**': [
-        'globaltoc.html',
-        'relations.html', 
         'searchbox.html',
+        'globaltoc.html',
     ]
 }
 
