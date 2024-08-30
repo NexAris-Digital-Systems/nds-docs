@@ -18,8 +18,9 @@ extensions = [
     'sphinx.ext.intersphinx',
     'sphinx.ext.napoleon',
     'sphinx.ext.viewcode',
+    'sphinx.ext.autodoc',
+    'sphinx.ext.napoleon',
     'recommonmark',
-    'sphinx_markdown_tables',
 ]
 
 templates_path = ['_templates']
