@@ -11,8 +11,8 @@ extensions = [
     'sphinx.ext.intersphinx',
     'sphinx.ext.napoleon',
     'sphinx.ext.viewcode',
-    'recommonmark', 
-    'sphinx_wagtail_theme',  
+    'recommonmark',
+    'sphinx_wagtail_theme',
 ]
 
 source_suffix = {
@@ -23,14 +23,13 @@ source_suffix = {
 html_sidebars = {
     "**": [
         "searchbox.html",
-        "about.html",
+        "about.html"
     ]
 }
 
 master_doc = 'index'
 templates_path = ['_templates']
 exclude_patterns = []
-html_static_path = ['_static']
 html_css_files = [
     'custom.css',
 ]
@@ -45,6 +44,11 @@ html_theme_options = {
     'logo_height': 59,
     'logo_width': 45,
     'logo_url': "/",
+    'header_links': "Crazydev - Blog |http://crazydev.org"
+    'footer_links': ",".join([
+        "Contact|http://wen-tickets.crazydev.org",
+        "Blog|http://blog.crazydev.org",
+    ]),
 }
 
 # -- Options for EPUB output -------------------------------------------------
