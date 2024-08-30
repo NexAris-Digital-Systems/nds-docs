@@ -1,8 +1,10 @@
 import os
 import sys
 
-# Add the 'docs/source/' directory to sys.path, adjust if your module is in another path
+# Add the path to the source files to sys.path
 sys.path.insert(0, os.path.abspath('../source'))
+
+# -- Project information -----------------------------------------------------
 
 project = 'Lumache'
 copyright = '2021, Graziella'
