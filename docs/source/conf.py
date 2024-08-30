@@ -18,6 +18,8 @@ extensions = [
     'sphinx.ext.intersphinx',
     'sphinx.ext.napoleon',
     'sphinx.ext.viewcode',
+    'recommonmark',
+    'sphinx_markdown_tables',
 ]
 
 templates_path = ['_templates']
@@ -34,7 +36,7 @@ intersphinx_disabled_domains = ['std']
 templates_path = ['_templates']
 
 # Source file suffixes
-source_suffix = '.rst'
+source_suffix = '.md'
 
 # Master document (source file without extension)
 master_doc = 'index'
@@ -44,6 +46,7 @@ source_dir = 'docs/source'
 
 # -- Options for HTML output -------------------------------------------------
 
+extensions.append("sphinx_wagtail_theme")
 html_theme = 'sphinx_wagtail_theme'
 
 # -- Options for EPUB output -------------------------------------------------
