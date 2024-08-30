@@ -20,14 +20,18 @@ source_suffix = {
     '.md': 'markdown',
 }
 
-html_sidebars = {"**": [
-    "searchbox.html",
-    "globaltoc.html",
-    "test.html",  
-]}
+templates_path = ['_sidebar_btemplates']
+
+# Sidebar configuration to use default Sphinx templates
+html_sidebars = {
+    '**': [
+        'globaltoc.html',  
+        'searchbox.html',  
+        'about.html'
+    ]
+}
 
 master_doc = 'index'
-templates_path = ['_templates']
 exclude_patterns = []
 html_css_files = [
     'custom.css',
