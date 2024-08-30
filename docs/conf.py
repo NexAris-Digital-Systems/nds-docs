@@ -27,7 +27,6 @@ templates_path = ['_templates']
 html_sidebars = {"**": [
     "searchbox.html",
     "globaltoc.html",
-    "about.html",   
 ]}
 
 
