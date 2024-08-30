@@ -45,11 +45,6 @@ html_theme_options = {
     'logo_height': 59,
     'logo_width': 45,
     'logo_url': "/",
-    'header_links': "Top 1|http://example.com/one, Top 2|http://example.com/two",
-    'footer_links': ",".join([
-        "Contact|http://wen-tickets.crazydev.org",
-        "Blog|http://blog.crazydev.org",
-    ]),
 }
 
 # -- Options for EPUB output -------------------------------------------------
