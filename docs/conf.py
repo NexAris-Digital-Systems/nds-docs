@@ -5,6 +5,8 @@ release = '0.1'
 version = '0.1.0'
 
 # -- General configuration ---------------------------------------------------
+html_show_sourcelink = False
+
 html_favicon = "https://cdn.crazydev.org/_data/i/upload/2024/08/14/20240814080422-a2794fa4-th.png"
 extensions = [
     'myst_parser',
