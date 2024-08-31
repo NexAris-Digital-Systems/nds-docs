@@ -53,9 +53,8 @@ html_theme_options = {
     'header_links': "Crazydev - Blog |http://crazydev.org", }
 
 html_context = {
-"display_github": False,
-"last_updated": True,
-"commit": False,
+    "display_github": False,
+    "last_updated": True,
 }
 
 # -- Options for EPUB output -------------------------------------------------
