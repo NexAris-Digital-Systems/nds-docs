@@ -1,4 +1,4 @@
-Introduction
+Control Center
 ==============
 Welcome to the Control Center Discord bot documentation. Here you will find information about the bot, its features, and commands to help you get the most out of it.
 
