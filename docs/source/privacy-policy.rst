@@ -13,7 +13,7 @@ This privacy notice for Crazy Development ("we," "us," or "our"), describes how 
 Questions or concerns? Reading this privacy notice will help you understand your privacy rights and choices. If you do not agree with our policies and practices, please do not use our Services.
 
 SUMMARY OF KEY POINTS
-==============
+##############
                                            
 This summary provides key points from our privacy notice, but you can find out more details about any of these topics by clicking the link following each key point or by using our table of contents below to find the section you are looking for.
 
