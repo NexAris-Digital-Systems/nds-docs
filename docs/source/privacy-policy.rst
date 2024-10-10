@@ -8,7 +8,7 @@ Privacy Policy
 ==============
 Last updated 7/22/24
 
-This privacy notice for Crazy Development ("we," "us," or "our"), describes how and why we might collect, store, use, and/or share ("process") your information when you use our services ("Services"), such as when you:
+This privacy notice for NexAris Digital Systems ("we," "us," or "our"), describes how and why we might collect, store, use, and/or share ("process") your information when you use our services ("Services"), such as when you:
 
 Questions or concerns? Reading this privacy notice will help you understand your privacy rights and choices. If you do not agree with our policies and practices, please do not use our Services.
 
@@ -98,6 +98,6 @@ We may update this privacy notice from time to time. The updated version will be
 8. HOW CAN YOU CONTACT US ABOUT THIS NOTICE?
 ##############
 
-If you have questions or comments about this notice, you may contact us by email at:
+If you have questions or comments about this notice, you may contact us at:
 
-support@crazydev.org
+https://nexarisds.org/dc
