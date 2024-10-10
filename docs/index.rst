@@ -1,7 +1,7 @@
 Getting Started
 ===============
 
-Welcome to the official and new Crazy Development documentation site. Have any questions, feedback, or suggestions? Email us at support@crazydev.org or join our Discord server at https://crazydev.org/discord.
+Welcome to the official NexAris Digital Systems documentation site. Have any questions, feedback, or suggestions? join our Discord server at https://nexarisds.org/dc.
 
 Getting Started
 ===============
