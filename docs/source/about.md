@@ -1,11 +1,10 @@
-# About Crazy Development
+# About NexAris Digital Systems
 
-Welcome to the Crazy Development documentation. This page provides information about our company, mission, and team.
+Welcome to the NexAris Digital Systems documentation. This page provides information about our company, mission, and team.
 
-## Our Mission
+## What we're here for
 
-At Crazy Development, our mission is to create innovative solutions that drive technology forward. We are dedicated to pushing the boundaries of what's possible and delivering high-quality products and services that exceed expectations.
-
+NexAris Digital Systems is here to help you innovate, automate, and elevate your digital presence. Our expertise spans across various sectors to deliver custom Discord bot development, web development, Roblox development, and more! Whether you need complex automation tools for Discord, a modern and sleek website, or game development on Roblox, NexAris is your go-to partner.
 ## Our Team
 
 Our team consists of experienced professionals who are passionate about technology and innovation. Each member brings a unique set of skills and expertise to the table, allowing us to tackle complex challenges and deliver exceptional results.
@@ -18,7 +17,7 @@ Our team consists of experienced professionals who are passionate about technolo
 
 ## Contact Us
 
-If you have any questions or would like to learn more about Crazy Development, please [contact us](contact.md).
+If you have any questions or would like to learn more about NexAris Digital Systems, please [contact us](contact.md).
 
 ---
 
